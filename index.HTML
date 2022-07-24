@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Diet Poker</title>
+    <link rel="stylesheet" href="/styles">
+</head>
+<body>
+    
+    <h1 class="title" id="title">Diet Poker</h1>
+
+    <div class="user-info">
+        <form>
+            <input type="text" id="enteredName" placeholder="Enter your name">
+            <input type="number" id="credits" placeholder="enter credits">
+            <button type="submit" id="sub">submit</button>
+        </form>
+        <p id="user"></p>
+        <details>
+            <summary>Stats</summary>
+            <p id="stats"></p>
+        </details>
+
+    </div>
+
+    <div class="buttons">
+        <button id="deal" disabled>Deal</button>
+        <button id="call" disabled>Call</button>
+        <button id="check" disabled>Check</button>
+        <button id="fold" disabled>Fold</button>
+        <button id="win" disabled>Win</button>
+        <button id="lose" disabled>Lose</button>
+    </div>
+
+    <div class="bot-hand" id="bot-hand"></div>
+    <div class="table" id="table"></div>
+    <div class="hand" id="hand"></div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(48, 157, 48);
+    min-height:100%;
+    height:70vh;
+}
+
+.user-info {
+    background-color: rgb(199, 242, 199);
+    border-style:solid;
+    max-width: 40%;
+}
+
+.buttons {
+    float:left;
+    border:1px solid white;
+    position: fixed;
+
+}
+
+.buttons button {
+    background-color: blanchedalmond;
+    margin-left:0px;
+    margin-right:0px;
+    float: left;
+    
+}
+
+.buttons button:hover {
+    background-color: rgb(218, 211, 211);
+}
+
+.buttons button:disabled{
+    opacity:0.3;
+}
+
+.hand {
+    height:25%;
+    width: 25%;
+    position:relative;
+    padding-bottom:5%;
+}
+
+.hand img {
+    height:100%;
+    width:30%;
+    padding-right:0%;
+    padding-left:0%;
+    object-fit:contain;
+    
+}
+
+.bot-hand {
+    height:28%;
+    width: 25%;
+    left:75%;
+    position:relative;
+}
+
+.bot-hand img {
+    height:100%;
+    width:25%;
+    padding-right:1%;
+    object-fit:contain;
+}
+
+.table {
+    height:50%;
+    width: 50%;
+    left:28%;
+    right:50%;
+    position: relative; 
+}
+
+.table img {
+    width: 15%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    color:rgb(226, 70, 70);
+    max-width:40%;
+    background-color: rgb(199, 242, 199);
+    border-style: solid;
+    border-color: black;
+    margin-bottom:0%;
+}
