@@ -8,7 +8,7 @@ let botHand = [];
 let table = [];
 
 //swap between card back and front
-let swap = ['ecksdee.png', 'ecksdee.png'];
+let swap = ['cardback.png', 'cardback.png'];
 
 //trackers
 let counter = 0;
@@ -124,7 +124,7 @@ const reset = (res,req) => {
     deck.push(hand.pop(), hand.pop());
 
     //make sure the card back doesnt get shuffled back into the deck
-    if (swap[0] === 'ecksdee.png') {
+    if (swap[0] === 'cardback.png') {
         deck.push(botHand.pop(), botHand.pop());
     } else {
         cardSwap();
