@@ -12,7 +12,7 @@ they won or lost the game.
 
 ## Screenshots
 
-![screenshot-1](https://imgur.com/a/i4H8Xaw)
+![screenshot-1](https://github.com/markoka101/poker-capstone/blob/main/poker-capston-sc1.PNG)
 ![screenshot-2](https://imgur.com/a/Quc7dq1)
 ![screenshot-3](https://imgur.com/5ehxxyZ)
 
