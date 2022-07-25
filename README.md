@@ -13,8 +13,8 @@ they won or lost the game.
 ## Screenshots
 
 ![screenshot-1](https://github.com/markoka101/poker-capstone/blob/main/poker-capston-sc1.PNG)
-![screenshot-2](https://imgur.com/a/Quc7dq1)
-![screenshot-3](https://imgur.com/5ehxxyZ)
+![screenshot-2](https://github.com/markoka101/poker-capstone/blob/main/poker-capston-sc2.png)
+![screenshot-3](https://github.com/markoka101/poker-capstone/blob/main/poker-capston-sc3.png)
 
 
 ## Demo
