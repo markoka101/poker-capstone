@@ -19,7 +19,7 @@ they won or lost the game.
 
 ## Demo
 
-Insert gif or link to demo
+[link to demo](https://youtu.be/k6-YOjc-Pes)
 
 
 ## Technology used
