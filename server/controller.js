@@ -121,17 +121,17 @@ const winlose = (req,res) => {
 //reset the table
 const reset = (res,req) => {
     //transfer cards back to deck array
-    if (hand.length != 0) {
-        deck.push(hand.pop(), hand.pop());
+    while (hand.length != 0) {
+        deck.push(hand.pop());
     }
 
     //make sure the card back doesnt get shuffled back into the deck
-    if (botHand.length != 0) {
+    while (botHand.length != 0) {
         if (swap[0] === 'cardback.png') {
-            deck.push(botHand.pop(), botHand.pop());
+            deck.push(botHand.pop());
         } else {
             cardSwap();
-            deck.push(botHand.pop(), botHand.pop());
+            deck.push(botHand.pop());
         }
     }
 
