@@ -168,6 +168,7 @@ const dealTable= () => {
 //fold
 const fold = () => {
     if (confirm('Are you sure you want to fold?')) {
+        callBtn.disabled = true;
         winlose('lose');
     }
 }
